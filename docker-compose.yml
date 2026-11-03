@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    image: python:3.11-slim
+    container_name: yt-auto-clipping-dashboard
+    working_dir: /app
+    ports:
+      - "8001:8001"
+    volumes:
+      - .:/app
+    command: python server.py
+    restart: unless-stopped

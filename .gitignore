@@ -1,0 +1,43 @@
+# Local generated media
+raw/
+outputs/
+uploads/
+custom_fonts/
+logs/
+
+# Video media files
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.m4v
+*.mpeg
+*.mpg
+*.wmv
+*.flv
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+client_secrets.json
+credentials.json
+token.json
+token.pickle
+youtube_token.json
+.credentials/
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+*.log
