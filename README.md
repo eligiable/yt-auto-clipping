@@ -1,5 +1,7 @@
 # YT Auto Clipping
 
+<img width="1917" height="941" alt="image" src="https://github.com/user-attachments/assets/413a323f-473f-40da-a5bb-a7b374bff345" />
+
 **Discover long-form YouTube content, turn it into short vertical clips, and organize the results in one workflow.**
 
 This project combines an automated YouTube discovery and publishing pipeline with the [`opensource-clipping/`](./opensource-clipping/) rendering engine and a Docker-served media dashboard. It is designed to keep content coverage balanced across configured niches while avoiding repeat processing of previously recorded videos.
